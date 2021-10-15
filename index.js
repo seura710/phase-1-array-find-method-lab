@@ -1,8 +1,8 @@
-function superbowlWin(array) {
-    for (const obj of array) {
-      if (obj.result==="W") {
-        return obj.year;
-      }
+function superbowlWin(collection) {
+    for (const element of collection) {
+        if (element.result === "W") {
+          return element.year;
+        }
     }
 }
 
